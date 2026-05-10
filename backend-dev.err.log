@@ -1,0 +1,21 @@
+D:\DRIP\backend\main.py:54: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Will watch for changes in these directories: ['D:\\DRIP\\backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [16884] using WatchFiles
+INFO:     Started server process [15180]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15180]
+INFO:     Started server process [11196]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
